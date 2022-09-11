@@ -1,0 +1,186 @@
+{
+	"info": {
+		"_postman_id": "fd01f804-0a93-4334-936e-1e2ee1bc88f4",
+		"name": "NetHangFire",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7508797"
+	},
+	"item": [
+		{
+			"name": "Registrar Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\":\"Fatih Cakir\",\r\n    \"Email\":\"bidibidi@outlook.com\",\r\n    \"Age\":33,\r\n    \"Birthday\":\"1991-02-02\",\r\n    \"Gender\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44307/api/CustomersApi/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"api",
+						"CustomersApi",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44307/api/CustomersApi/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"api",
+						"CustomersApi",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer MappingOrnek",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44307/api/CustomersApi/MappingOrnek",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44307",
+					"path": [
+						"api",
+						"CustomersApi",
+						"MappingOrnek"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Welcome Hangfire",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44383/api/hangfire/welcome",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44383",
+					"path": [
+						"api",
+						"hangfire",
+						"welcome"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44345/api/product",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44345",
+					"path": [
+						"api",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount hangfire",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44383/api/hangfire/discount",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44383",
+					"path": [
+						"api",
+						"hangfire",
+						"discount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualización de base de datos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44383/api/hangfire/databaseupdate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44383",
+					"path": [
+						"api",
+						"hangfire",
+						"databaseupdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Confirm Hangfire",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44383/api/hangfire/confirm",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44383",
+					"path": [
+						"api",
+						"hangfire",
+						"confirm"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,9 @@
+
+Curso
+https://www.udemy.com/course/aspnet-core-background-processing-with-hangfire/learn/lecture/18458362#overview
+
+Ubicación de la documentación oficial
+https://www.hangfire.io/
+
+Crear el proyecto
+dotnet new reactredux -o hangfire-webapi2 -f netcoreapp3.1
