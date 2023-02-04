@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6.API", "Net6.API\Net6.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidationApp.Web", "FluentValidationApp.Web\FluentValidationApp.Web.csproj", "{2DE92A3C-C182-4BFC-A864-AC502CEC979E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrainyBill.FluentValidationApp.Web", "BrainyBill.FluentValidationApp.Web\BrainyBill.FluentValidationApp.Web.csproj", "{D22AB463-0CD9-4848-A8CB-C8EF039F25F3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimit.API", "RateLimit.API\RateLimit.API.csproj", "{2B02A89F-C497-4E9F-8505-4447E68F9D75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hangfire-webapi2", "hangfire-webapi2\hangfire-webapi2.csproj", "{4F05EDB9-75EF-4AF1-84C5-2671584BD5EA}"
@@ -39,10 +37,6 @@ Global
 		{2DE92A3C-C182-4BFC-A864-AC502CEC979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE92A3C-C182-4BFC-A864-AC502CEC979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE92A3C-C182-4BFC-A864-AC502CEC979E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D22AB463-0CD9-4848-A8CB-C8EF039F25F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D22AB463-0CD9-4848-A8CB-C8EF039F25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D22AB463-0CD9-4848-A8CB-C8EF039F25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D22AB463-0CD9-4848-A8CB-C8EF039F25F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B02A89F-C497-4E9F-8505-4447E68F9D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B02A89F-C497-4E9F-8505-4447E68F9D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B02A89F-C497-4E9F-8505-4447E68F9D75}.Release|Any CPU.ActiveCfg = Release|Any CPU

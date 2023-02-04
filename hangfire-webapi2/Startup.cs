@@ -13,6 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Microsoft.OpenApi.Models;
+using hangfire_webapi2.Configuration;
 
 namespace hangfire_webapi2
 {
@@ -78,6 +79,8 @@ namespace hangfire_webapi2
             });
 
             app.UseHangfireDashboard();
+            app.ConfigureHandFireJobs();
+
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
